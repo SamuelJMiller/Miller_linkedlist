@@ -42,10 +42,11 @@ namespace Miller_linkedlist
 
         public Node contains(string item)
         {
+            // If no head, there can be no search
             if (_head == null)
             {
                 return null;
-            } else
+            } else // Otherwise search nodes
             {
                 Node current = _head;
 
@@ -60,6 +61,9 @@ namespace Miller_linkedlist
                         if (current.Next != null)
                         {
                             current = current.Next;
+                        } else
+                        {
+                            break;
                         }
                     }
                 }
