@@ -120,5 +120,28 @@ namespace Miller_linkedlist
 
             return false;
         }
+
+        public void print_all_nodes()
+        {
+            if (_head == null)
+            {
+                Console.WriteLine("No nodes!");
+            } else
+            {
+                Node current = _head;
+
+                while (current != null)
+                {
+                    Console.WriteLine(current.Data);
+                    if (current.Next != null)
+                    {
+                        current = current.Next;
+                    } else
+                    {
+                        break;
+                    }
+                }
+            }
+        }
     }
 }

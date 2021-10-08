@@ -6,7 +6,7 @@ namespace Miller_linkedlist
     {
         static void Main(string[] args)
         {
-            
+            LinkedList list = new LinkedList();
         }
     }
 }
