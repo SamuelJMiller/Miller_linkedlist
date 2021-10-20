@@ -1,5 +1,8 @@
 ﻿using System;
 
+// Samuel Miller
+// IT113
+
 namespace Miller_linkedlist
 {
     class Program
